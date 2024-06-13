@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-
 import './Styles/App.css';
 import ProductList from './Pages/ProductList';
 import RecipeList from './Pages/RecipeList';
@@ -14,9 +13,9 @@ import PrivateRoute from './Pages/Components/PrivateRoutes';
 function App() {
      return (
           <AuthProvider>
-               <Router basename="/Anibalpaezz.github.io">
-                    <div className="app-container"> {/* Agrega una clase al contenedor principal */}
-                         <header className="app-header"> {/* Mantén la clase para el encabezado */}
+               <Router>
+                    <div className="app-container">
+                         <header className="app-header">
                               <h1>Stock & Stir</h1>
                          </header>
                          <NavBar />
