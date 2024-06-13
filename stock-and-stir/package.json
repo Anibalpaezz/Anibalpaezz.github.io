@@ -1,6 +1,7 @@
 {
   "name": "stock-and-stir",
   "version": "0.1.0",
+  "homepage": "https://anibalpaezz.github.io/stock-and-stir",
   "private": true,
   "dependencies": {
     "@supabase/supabase-js": "^2.43.4",
@@ -37,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
