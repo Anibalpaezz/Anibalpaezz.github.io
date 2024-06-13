@@ -14,7 +14,7 @@ import PrivateRoute from './Pages/Components/PrivateRoutes';
 function App() {
      return (
           <AuthProvider>
-               <Router>
+               <Router basename="/Anibalpaezz.github.io">
                     <div className="app-container"> {/* Agrega una clase al contenedor principal */}
                          <header className="app-header"> {/* Mantén la clase para el encabezado */}
                               <h1>Stock & Stir</h1>
